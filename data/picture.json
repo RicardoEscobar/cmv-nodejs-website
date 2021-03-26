@@ -1,0 +1,1003 @@
+[{
+  "id": "1",
+  "pictureURL": "../images/instalaciones1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "2",
+  "pictureURL": "../images/instalaciones2.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "3",
+  "pictureURL": "../images/instalaciones3.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "4",
+  "pictureURL": "../images/instalaciones4.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "5",
+  "pictureURL": "../images/instalaciones5.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "6",
+  "pictureURL": "../images/instalaciones6.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "7",
+  "pictureURL": "../images/instalaciones7.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "8",
+  "pictureURL": "../images/instalaciones8.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "9",
+  "pictureURL": "../images/instalaciones9.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/instalaciones"
+}, {
+  "id": "10",
+  "pictureURL": "../images/comunidad1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "11",
+  "pictureURL": "../images/comunidad2.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "12",
+  "pictureURL": "../images/comunidad3.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "13",
+  "pictureURL": "../images/comunidad4.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "14",
+  "pictureURL": "../images/comunidad5.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "15",
+  "pictureURL": "../images/comunidad6.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "16",
+  "pictureURL": "../images/comunidad7.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "17",
+  "pictureURL": "../images/comunidad8.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "18",
+  "pictureURL": "../images/comunidad9.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "19",
+  "pictureURL": "../images/comunidad10.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/comunidad-infantil"
+}, {
+  "id": "20",
+  "pictureURL": "../images/casa1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "21",
+  "pictureURL": "../images/casa2.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "22",
+  "pictureURL": "../images/casa3.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "23",
+  "pictureURL": "../images/casa4.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "24",
+  "pictureURL": "../images/casa5.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "25",
+  "pictureURL": "../images/casa6.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "26",
+  "pictureURL": "../images/casa7.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "27",
+  "pictureURL": "../images/casa8.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "28",
+  "pictureURL": "../images/casa9.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "29",
+  "pictureURL": "../images/casa10.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "31",
+  "pictureURL": "../images/casa12.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "32",
+  "pictureURL": "../images/casa13.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "33",
+  "pictureURL": "../images/casa14.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "34",
+  "pictureURL": "../images/casa15.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "35",
+  "pictureURL": "../images/casa16.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "36",
+  "pictureURL": "../images/casa17.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "37",
+  "pictureURL": "../images/casa18.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "38",
+  "pictureURL": "../images/casa19.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "39",
+  "pictureURL": "../images/casa20.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "40",
+  "pictureURL": "../images/casa21.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "41",
+  "pictureURL": "../images/casa22.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "42",
+  "pictureURL": "../images/casa23.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "43",
+  "pictureURL": "../images/casa24.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "44",
+  "pictureURL": "../images/casa25.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "45",
+  "pictureURL": "../images/casa26.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "46",
+  "pictureURL": "../images/casa27.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "47",
+  "pictureURL": "../images/casa28.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "48",
+  "pictureURL": "../images/casa29.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "49",
+  "pictureURL": "../images/casa30.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "50",
+  "pictureURL": "../images/casa31.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "51",
+  "pictureURL": "../images/casa32.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "52",
+  "pictureURL": "../images/casa33.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "53",
+  "pictureURL": "../images/casa34.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "54",
+  "pictureURL": "../images/casa35.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "55",
+  "pictureURL": "../images/casa36.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "56",
+  "pictureURL": "../images/casa37.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "57",
+  "pictureURL": "../images/casa38.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "58",
+  "pictureURL": "../images/casa39.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "59",
+  "pictureURL": "../images/casa40.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "60",
+  "pictureURL": "../images/casa41.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "61",
+  "pictureURL": "../images/casa42.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "62",
+  "pictureURL": "../images/casa43.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "63",
+  "pictureURL": "../images/casa44.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "64",
+  "pictureURL": "../images/casa45.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "65",
+  "pictureURL": "../images/casa46.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "66",
+  "pictureURL": "../images/casa47.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/casa-ninios"
+}, {
+  "id": "67",
+  "pictureURL": "../images/musica1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "68",
+  "pictureURL": "../images/musica2.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "69",
+  "pictureURL": "../images/musica3.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "70",
+  "pictureURL": "../images/musica4.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "71",
+  "pictureURL": "../images/musica5.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "72",
+  "pictureURL": "../images/musica6.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "71",
+  "pictureURL": "../images/musica7.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "72",
+  "pictureURL": "../images/musica8.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "73",
+  "pictureURL": "../images/musica9.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "74",
+  "pictureURL": "../images/musica10.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "75",
+  "pictureURL": "../images/musica11.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "76",
+  "pictureURL": "../images/musica12.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "77",
+  "pictureURL": "../images/musica13.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "78",
+  "pictureURL": "../images/musica14.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "79",
+  "pictureURL": "../images/musica15.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "80",
+  "pictureURL": "../images/musica16.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "81",
+  "pictureURL": "../images/musica17.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "82",
+  "pictureURL": "../images/musica18.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "83",
+  "pictureURL": "../images/musica19.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/musica"
+}, {
+  "id": "84",
+  "pictureURL": "../images/musica20.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/musica"
+}, {
+  "id": "85",
+  "pictureURL": "../images/yoga1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "86",
+  "pictureURL": "../images/yoga2.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "87",
+  "pictureURL": "../images/yoga3.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "88",
+  "pictureURL": "../images/yoga4.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "89",
+  "pictureURL": "../images/yoga5.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "90",
+  "pictureURL": "../images/yoga6.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "91",
+  "pictureURL": "../images/yoga7.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "92",
+  "pictureURL": "../images/yoga8.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "93",
+  "pictureURL": "../images/yoga9.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "94",
+  "pictureURL": "../images/yoga10.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "95",
+  "pictureURL": "../images/yoga11.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "96",
+  "pictureURL": "../images/yoga12.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/yoga"
+}, {
+  "id": "97",
+  "pictureURL": "../images/yoga13.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "98",
+  "pictureURL": "../images/yoga14.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/yoga"
+}, {
+  "id": "99",
+  "pictureURL": "../images/activacion1.jpeg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "100",
+  "pictureURL": "../images/activacion2.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "101",
+  "pictureURL": "../images/activacion3.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "103",
+  "pictureURL": "../images/activacion4.jpeg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "104",
+  "pictureURL": "../images/activacion5.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "105",
+  "pictureURL": "../images/activacion6.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/activacion-fisica"
+}, {
+  "id": "106",
+  "pictureURL": "../images/ambiente1.jpeg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "106",
+  "pictureURL": "../images/ambiente2.jpeg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "107",
+  "pictureURL": "../images/ambiente3.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "108",
+  "pictureURL": "../images/ambiente4.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "109",
+  "pictureURL": "../images/ambiente5.jpeg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "110",
+  "pictureURL": "../images/ambiente6.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "111",
+  "pictureURL": "../images/ambiente7.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "112",
+  "pictureURL": "../images/ambiente8.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "113",
+  "pictureURL": "../images/ambiente9.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "114",
+  "pictureURL": "../images/ambiente10.jpeg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "115",
+  "pictureURL": "../images/ambiente11.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "116",
+  "pictureURL": "../images/ambiente12.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "117",
+  "pictureURL": "../images/ambiente13.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "118",
+  "pictureURL": "../images/ambiente14.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "119",
+  "pictureURL": "../images/ambiente15.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "120",
+  "pictureURL": "../images/ambiente16.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "121",
+  "pictureURL": "../images/ambiente17.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "122",
+  "pictureURL": "../images/ambiente18.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "123",
+  "pictureURL": "../images/ambiente19.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "124",
+  "pictureURL": "../images/ambiente20.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "125",
+  "pictureURL": "../images/ambiente21.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "126",
+  "pictureURL": "../images/ambiente22.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "127",
+  "pictureURL": "../images/ambiente23.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "128",
+  "pictureURL": "../images/ambiente24.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "129",
+  "pictureURL": "../images/ambiente25.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "130",
+  "pictureURL": "../images/ambiente26.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "131",
+  "pictureURL": "../images/ambiente27.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "132",
+  "pictureURL": "../images/ambiente28.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "133",
+  "pictureURL": "../images/ambiente29.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "134",
+  "pictureURL": "../images/ambiente30.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "135",
+  "pictureURL": "../images/ambiente31.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "136",
+  "pictureURL": "../images/ambiente32.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "137",
+  "pictureURL": "../images/ambiente33.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "138",
+  "pictureURL": "../images/ambiente34.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "139",
+  "pictureURL": "../images/ambiente35.jpeg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "140",
+  "pictureURL": "../images/ambiente36.jpeg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "141",
+  "pictureURL": "../images/ambiente37.jpeg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/ambiente-externo"
+}, {
+  "id": "142",
+  "pictureURL": "../images/escuela1.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "143",
+  "pictureURL": "../images/escuela2.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "144",
+  "pictureURL": "../images/escuela3.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "145",
+  "pictureURL": "../images/escuela4.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "146",
+  "pictureURL": "../images/escuela5.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "147",
+  "pictureURL": "../images/escuela6.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "148",
+  "pictureURL": "../images/escuela7.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "149",
+  "pictureURL": "../images/escuela8.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "140",
+  "pictureURL": "../images/escuela9.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "150",
+  "pictureURL": "../images/escuela10.jpg",
+  "isAlta": true,
+  "isAncha": true,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "151",
+  "pictureURL": "../images/escuela11.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "152",
+  "pictureURL": "../images/escuela12.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "153",
+  "pictureURL": "../images/escuela13.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "154",
+  "pictureURL": "../images/escuela14.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "155",
+  "pictureURL": "../images/escuela15.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "156",
+  "pictureURL": "../images/escuela16.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "157",
+  "pictureURL": "../images/escuela17.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "158",
+  "pictureURL": "../images/escuela18.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "159",
+  "pictureURL": "../images/escuela19.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "160",
+  "pictureURL": "../images/escuela20.jpg",
+  "isAlta": false,
+  "isAncha": true,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "161",
+  "pictureURL": "../images/escuela21.jpg",
+  "isAlta": true,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "162",
+  "pictureURL": "../images/escuela22.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "163",
+  "pictureURL": "../images/escuela23.jpeg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "164",
+  "pictureURL": "../images/escuela24.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}, {
+  "id": "165",
+  "pictureURL": "../images/escuela25.jpg",
+  "isAlta": false,
+  "isAncha": false,
+  "path": "/galeria/escuela-padres"
+}]

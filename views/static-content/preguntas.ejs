@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<body>
+    <!--Barra de navegacion-->
+<%- include('../includes/navigation.ejs') %>
+    <!--Barra de navegacion-->
+
+    <main>
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <!--Botones flotantes: whatsapp y facebook-->
+<%- include('../includes/chat-buttons.ejs') %>
+        <!--Botones flotantes: whatsapp y facebook-->
+
+        <!--banner-->
+        <div class="container-fluid p-0 position-relative text-center mt-4-5rem">
+            <picture>
+                <source srcset="images/Faqs2000.jpg" media="(min-width: 1400px)">
+                <source srcset="images/Faqs1400.jpg" media="(min-width: 769px)">
+                <source srcset="images/Faqs800.jpg" media="(min-width: 577px)">
+                <img srcset="images/Faqs600.jpg" alt="responsive image" class="img-fluid"
+                    style="filter: brightness(50%)">
+            </picture>
+            <div class="caption-text">
+                <h1 class="d-none d-sm-block naranja"><strong>Colegio Montessori de la Vera Cruz.</strong></h1>
+                <h1 class="text-light"><strong>Preguntas Frecuentes</strong></h1>
+                <div class="text-center">
+                    <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
+                        ya!</a>
+                </div>
+            </div>
+        </div>
+        <!--banner-->
+
+        <div class="row contacto">
+            <div class="col-lg-6 pl-2">
+                <h5 class="pt-2 azul2">¿Qué niveles educativos ofrecemos?</h5>
+                <p>Cambiar la respuesta actual por: Comunidad infantil (1 a 3 años), Casa de Niños (3 a 6) y Taller I y II (6 a 12 años).</p>
+                <hr>
+                <h5 class="azul2">¿Cuál es la edad apropiada para que se integre un alumno a los diferentes
+                    niveles?
+                </h5>
+                <p>En <strong>Comunidad Infantil</strong> que el niño(a) camine perfectamente bien. No hay una edad determinada para
+                    entrar, pero como requisito se requiere tener 1 año.</p>
+                <p>En <strong>Casa de los Niños</strong> para ingresar en el ambiente se requiere control de esfínteres, asearse por sí solo después
+                    de ir al baño (o estar en proceso de aprendizaje) y sepa expresar oralmente sus ideas y/o
+                    necesidades. A partir de 2.5 años.</p>
+                <p><strong>Taller I:</strong> Si el alumno es Montessoriano y está listo para el siguiente nivel, puede ingresar a partir
+                    de los 5 años, En caso de no ser Montessoriano y provenir de un colegio tradicional, podrán ingresar
+                    a partir de los 6 años cumplidos al 31 de diciembre.</p>
+                <hr>
+                <h5 class="azul2">¿Cuáles son los horarios de estancia de los alumnos?</h5>
+                <p>Para <strong>Comunidad Infantil</strong> el horario es de 8:30 a 13:00 </p>
+                <p>Para <strong>Casa de los Niños</strong> el horario es de 8:30 a 14:30 </p>
+                <p><strong>Taller I y II:</strong> de 8:00 a 14:30 horas.</p>
+                <p><strong>Horario extra</strong> de 7:30 a 16:00 (costo extra)</p>
+                <p class="naranja"><strong>Nota:</strong> los horarios podrán variar según la
+                    situación sanitaria actual. Estos son en caso de modalidad <strong>100% presencial</strong>. Para
+                    mayor información, concertar una cita al telefono: <%- include('../includes/telefono.ejs') %></p>
+                <hr>
+                <h5 class="azul2">¿Cuentan con becas disponibles para alumnos?</h5>
+                <p>Si, estas se otorgan después de un estudio socioeconómico previa autorización de Dirección académica.
+                </p>
+                <hr>
+                <h5 class="azul2">¿Estamos incorporados a la SEP?</h5>
+                <p>Actualmente contamos con el nivel de Taller (primaria) incormporado a la SEP
+                    con clave <strong>30PPR008AU</strong>, Casa de Niños y Comunidad infantil están en proceso.</p>
+                <hr>
+                <h5 class="azul2">¿Los alumnos utilizan uniforme?</h5>
+                <p>No, los niños vienen como se sientan más cómodos, únicamente se colocan una bata de trabajo encima de
+                    su ropa, esta se adquiere en el colegio.</p>
+                <hr>
+                <h5 class="azul2">¿Son incluyentes?</h5>
+                <p>Si somos incluyentes, el método es excelente para niñ@s con necesidad educativa especial, sin
+                    embargo, tenemos solo un porcentaje de plazas disponibles para la atención de estos casos.</p>
+                <hr>
+                <h5 class="azul2">¿Contamos con Departamento Psicopedagógico?</h5>
+                <p>No, se cuenta con un convenio de atención para los niñ@s que sean canalizados, con un grupo de
+                    psicólogas y especialistas, sin embargo esta atención es fuera del colegio y tiene un costo extra
+                    que no lo determina nuestra administración.</p>
+                <hr>
+                <h5 class="azul2">¿Cuál es la dinámica del <em>lunch</em> dentro de los ambientes? </h5>
+                <p>Los niños en pequeños grupos van tomando su almuerzo según la necesidad que tenga cada uno.
+                    Generalmente les gusta desayunar al llegar al colegio pero lo pueden hacer a la hora que sientan la
+                    necesidad.</p>
+                <p>Los alimentos se envían de casa dependiendo del horario de estancia del menor.</p>
+                <p>En el colegio se da un <em>snack</em> de cortesía casi al final de la jornada en cada nivel.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h5 class="pt-2 azul2">¿Cuáles son las condiciones que revisamos cuando un alumno procede de un colegio
+                    con sistema tradicional?</h5>
+                <p>Que los papás se muestren dispuestos a conocer a profundidad el método y la filosofía a través de
+                    lecturas recomendadas y asistencia a las pláticas ofrecidas en el colegio, asistiendo a algún curso
+                    para papás Montessori con personas especializadas.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿El sistema Montessori es apropiado para todos los niños?</h5>
+                <p>Si lo es, sin embargo, hay niños que se sienten más cómodos siendo guiados de manera puntual por otro
+                    adulto que les diga qué y cómo tienen que hacer las cosas, también depende de la dinámica en casa,
+                    si se le permite al niñ@ ser independiente o no. Montessori es para todos los niños pero no para
+                    todos los padres.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿Que pasa cuando un niño <strong>sale</strong> de un sistema Montessori y se
+                    integra a un método tradicional de enseñanza?</h5>
+                <p>Un niño Montessori es independiente, seguro de si mismo, disciplinado y que gusta de la concentración
+                    por largos periodos, por lo tanto, se adaptan fácilmente a un nuevo entorno. Tal como los adultos
+                    nos adaptamos a un nuevo trabajo.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿Cuáles son las clases complementarias que reciben nuestros alumnos?</h5>
+                <p><strong>Comunidad Infantil:</strong></p>
+                <ul>
+                    <li>Clases de música (método Suzuki)</li>
+                    <li>Inglés (diario, 60 min)</li>
+                    <li>Clase de Yoga y Meditación</li>
+                </ul>
+                <p><strong>Casa de los niños:</strong></p>
+                <ul>
+                    <li>Activación Física</li>
+                    <li>Clases de música (método Suzuki)</li>
+                    <li>Inglés (diario, 60 min)</li>
+                    <li>Clase de Yoga y Meditación</li>
+                </ul>
+                <p><strong>Taller I y II:</strong></p>
+                <ul>
+                    <li>Activación Física</li>
+                    <li>Clases de música (método Suzuki)</li>
+                    <li>Inglés (diario, 60 min)</li>
+                    <li>Clase de Yoga y Meditación</li>
+                </ul>
+                <hr>
+                <h5 class="pt-2 azul2">¿Cual es la capacidad máxima de los ambientes?</h5>
+                <p>En <strong>Comunidad Infantil:</strong> 15 niños.</p>
+                <p>En <strong>Casa de los niños:</strong> 20 alumn@s.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿Los niños llevan mochila?</h5>
+                <p>No, en el método Montessori uno de los pilares es el material, el cual es preciso y tiene un control
+                    de error, por lo tanto, no se consiguen en papelerías o tiendas de artículos escolares. En el
+                    colegio se proporciona todo el material necesario para el aprendizaje de los niñ@s y no es necesario
+                    que traigan nada de casa.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿Qué esfuerzos realizamos para ser amigables con nuestro medio ambiente?</h5>
+                <p>Evitamos el uso de unicel y plástico en desechables, utilizamos productos de limpieza biodegradables,
+                    luminarias ahorradoras de energía eléctrica, reciclaje de desechos orgánicos.</p>
+                <hr>
+                <h5 class="pt-2 azul2">¿Qué orientación reciben los papás de Nuestra Comunidad?</h5>
+                <p>Además de la interacción directa con las Guías de sus hijos tenemos disponibles en el transcurso del
+                    ciclo escolar reuniones de avance en cada área presente en los ambientes. Además, ofrecemos
+                    diferentes talleres y pláticas donde se abordan temas como materiales, filosofía Montessori, límites
+                    y consecuencias según Montessori, etc.</p>
+            </div>
+        </div>
+
+
+        <!--footer-->
+<%- include('../includes/footer.ejs') %>
+        <!--footer-->
+
+    </main>
+
+  <!-- Optional JavaScript -->
+<%- include('../includes/optional-javascript.ejs') %>
+  <!-- Optional JavaScript -->
+</body>
+
+</html>

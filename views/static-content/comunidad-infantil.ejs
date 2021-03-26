@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<body>
+  <!--barra de navegacion-->
+<%- include('../includes/navigation.ejs') %>
+  <!--barra de navegacion-->
+
+  <main>
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <!--Botones flotantes: whatsapp y facebook-->
+<%- include('../includes/chat-buttons.ejs') %>
+    <!--Botones flotantes: whatsapp y facebook-->
+
+    <!--contenido: texto lado izquierdo y foto lado derecho-->
+    <div class="container-fluid p-0 pb-3 mb-3">
+      <div class="container mt-4-5rem order-2">
+        <div class="row">
+          <div class="col-lg-6 my-auto pt-4 order-2 order-lg-1">
+            <h1 class="text-center naranja">Comunidad infantil</h1>
+            <h3 class="text-center naranja">(1 a 3 años)</h3>
+            <p>El ambiente de Comunidad Infantil es un ambiente preparado para los niños
+              desde el momento en que caminan con equilibrio hasta cerca de los tres años de edad. Es un
+              ambiente acogedor en el que los niños pequeños están por primera vez en contacto de manera
+              estructurada con otros niños.</p>
+            <a class="btn bg-naranja btn-lg text-light d-block w-50 mx-auto" href="/inscripciones">¡Inscríbete
+              ya!</a>
+          </div>
+          <div class="col-lg-6 m-auto px-0 p-md-3 order-1 order-lg-2">
+            <!--Video-->
+            <div class="container-lg p-0 mt-0 mt-lg-5">
+              <div class="iframe-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/l9ugKWJQn9w?rel=0" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <!--Video-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contenido: texto lado izquierdo y foto lado derecho-->
+
+    <!--contenido: foto lado izquiero y texto lado derecho-->
+    <div class="container-fluid p-0 bg-azul2 pb-4 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 m-auto px-0 p-md-3">
+            <img class="img-fluid rounded m-auto d-block"
+              src="../images/comunidad1.jpg"
+              alt="...">
+          </div>
+          <div class="col-md-8 my-auto py-4">
+            <h2 class="text-center text-light">¿Que es el <strong>ambiente preparado</strong> en Montessori?
+            </h2>
+
+            <p class="text-light">El niño aprende a través del ambiente que le rodea, y si este está
+              dispuesto para facilitar la autonomía, el juego y el aprendizaje del niño, tendremos mucho
+              avanzado.</p>
+
+            <p class="text-light">Según la edad, los ambientes se plantean de manera diferente para atender
+              a las necesidades concretas. El ambiente está gestionado por los mismos alumnos, de forma
+              que lo sientan propio y donde la dinámica del ambiente se transforma en su hábitat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contenido: foto lado izquiero y texto lado derecho-->
+
+    <!--frase maria montessori-->
+    <div class="container pt-4">
+      <img src="images/maria-montessori.jpg" class="rounded-circle shadow d-block mx-auto" />
+      <blockquote class="blockquote text-center p-3">
+        <h3 class="mb-0 azul1">“Cada niño es especial y único, con sus propias características como persona.
+          No se trata de dar a todos lo mismo, sino a cada uno lo suyo”.
+        </h3>
+        <footer class="blockquote-footer naranja">
+          María Montessori
+        </footer>
+      </blockquote>
+    </div>
+    <!--frase maria montessori-->
+
+    <!--contenido: foto lado derecho y texto lado izquierdo-->
+    <div class="container-fluid p-0 bg-azul2 pb-4 mb-0 mb-md-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 m-auto px-0 p-md-3 order-md-2">
+            <img class="img-fluid rounded m-auto d-block"
+              src="../images/comunidad6.jpg"
+              alt="...">
+          </div>
+          <div class="col-md-8 my-auto py-4 order-md-1 ">
+            <h2 class="text-center text-light">Desarrollo de habilidades sociales</h2>
+
+            <p class="text-light">Después de empezar a caminar, los niños se unen al grupo donde se continúa
+              trabajando la coordinación motora primaria, la independencia y el lenguaje. El ambiente
+              (aula) es un lugar acogedor donde los niños muy pequeños experimentan su primer contacto
+              estructurado con otros niños.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contenido: foto lado derecho y texto lado izquierdo-->
+
+    <!--contenido: foto lado izquierdo y texto lado derecho-->
+    <div class="container-fluid p-0 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 m-auto px-0 p-md-3">
+            <a href="/galerias/comunidad-infantil">
+              <img class="img-fluid rounded m-auto d-block"
+                src="../images/comunidad10.jpg"
+                alt="...">
+            </a>
+
+          </div>
+          <div class="col-md-8 my-auto py-4">
+            <h2 class="text-center naranja">Galería de imágenes.</h2>
+            <p>La comprensión del desarrollo del niño y de la mente humana permiten preparar el ambiente
+              para satisfacer las necesidades del niño y fomentar su independencia, el desarrollo
+              psicomotriz y la adquisición del lenguaje.</p>
+
+            <p>Visita la galería de imágenes para que conozcas el ambiente.</p>
+
+            <!--Boton grande, version telefono-->
+            <a class="btn bg-naranja btn-lg text-light d-block d-lg-none w-50 mx-auto"
+              href="/galeria/comunidad-infantil">Ver fotos</a>
+
+            <!--Boton pequeño, version escritorio-->
+            <a class="btn bg-naranja btn-lg text-light d-none d-lg-block w-25 mx-auto"
+              href="/galeria/comunidad-infantil">Ver fotos</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contenido: foto lado izquierdo y texto lado derecho-->
+
+    <!--footer-->
+<%- include('../includes/footer.ejs') %>
+    <!--footer-->
+
+  </main>
+
+  <!-- Optional JavaScript -->
+<%- include('../includes/optional-javascript.ejs') %>
+  <!-- Optional JavaScript -->
+</body>
+
+</html>

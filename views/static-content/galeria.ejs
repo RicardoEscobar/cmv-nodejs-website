@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<body>
+    <!--Barra de navegacion-->
+<%- include('../includes/navigation.ejs') %>
+    <!--Barra de navegacion-->
+
+    <main>
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <!--Botones flotantes: whatsapp y facebook-->
+<%- include('../includes/chat-buttons.ejs') %>
+        <!--Botones flotantes: whatsapp y facebook-->
+
+        <div class="container mt-4-5rem">
+            <h1 class="font-weight-light text-center azul2 mt-4 mb-0"><strong>Galería</strong></h1>
+            <hr class="mt-2 mb-5">
+            <div class="row galeria text-lg-left">
+                <div class=" col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/instalaciones" class="categoria d-block mb-4">
+                        <img class="img-categoria img-fluid img-thumbnail" src="images/instalaciones1.jpg" alt="">
+                        <p class="">Instalaciones</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/comunidad-infantil" class="categoria d-block mb-4">
+                        <img class="img-categoria img-fluid img-thumbnail" src="images/comunidad6.jpg" alt="">
+                        <p class="">Comunidad Infantil(1-3 años)</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/casa-ninios" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail" src="images/casa4.jpg" alt="">
+                        <p class="">Casa de los niños(3-6 años)</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/taller" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail" src="https://placehold.it/304x250" alt="">
+                        <p class="">Taller (6-12 años)</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/musica" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail" src="images/musica4.jpg" alt="">
+                        <p class="">Música</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/yoga" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail" src="images/yoga1.jpg" alt="">
+                        <p class="">Yoga</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/activacion-fisica" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail"
+                            src="../images/activacion1.jpeg"
+                            alt="">
+                        <p class="">Activación Física</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/ambiente-externo" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail"
+                            src="../images/ambiente6.jpeg"
+                            alt="">
+                        <p class="">Ambiente Externo</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 text-center">
+                    <a href="/galeria/escuela-padres" class="categoria d-block mb-4 ">
+                        <img class="img-categoria img-fluid img-thumbnail"
+                            src="../images/escuela10.jpg"
+                            alt="">
+                        <p>Escuela para padres</p>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete ya!</a>
+            </div>
+        </div>
+
+
+
+        <hr>
+        <!--Video-->
+        <h1 class="font-weight-light text-center azul2 mt-4 mb-0"><strong>Videos</strong></h1>
+        <div class="container-lg p-0 mt-0 mt-lg-5">
+            <div class="iframe-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/l9ugKWJQn9w?rel=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-lg p-0 mt-0 mt-lg-5 mb-5">
+            <div class="iframe-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/grQVLPu-D_o?rel=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--Video-->
+
+        <!--footer-->
+<%- include('../includes/footer.ejs') %>
+        <!--footer-->
+
+    </main>
+
+  <!-- Optional JavaScript -->
+<%- include('../includes/optional-javascript.ejs') %>
+  <!-- Optional JavaScript -->
+</body>
+
+</html>

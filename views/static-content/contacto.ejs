@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<!--Barra de navegacion-->
+<%- include('../includes/navigation.ejs') %>
+<!--Barra de navegacion-->
+
+<!--contacto-->
+<main>
+
+    <!--Botones flotantes: whatsapp y facebook-->
+    <%- include('../includes/chat-buttons.ejs') %>
+    <!--Botones flotantes: whatsapp y facebook-->
+
+
+    <div class="container contacto mt-4-5rem">
+        <div class="text-center">
+            <img src="images/colegioMontessoriLogo.png" style="height: 200px;">
+        </div>
+        <h4 class="azul2 font-weight-bold text-capitalize">Haz</h4>
+        <h2 class="naranja font-weight-bold">Contacto </h2>
+        <p class="azul1">Ponemos a tu disposición un formulario para que ingreses tus datos y podamos resolver tus
+            dudas. Llena los datos para que podamos brindarte una mejor atención.</p>
+        <!--contacto-->
+        <%- include('../includes/contact-form') %>
+        <!--contacto-->
+    </div>
+
+    <!--footer-->
+    <%- include('../includes/footer.ejs') %>
+    <!--footer-->
+
+</main>
+
+
+<!-- Optional JavaScript -->
+<%- include('../includes/optional-javascript.ejs') %>
+<!-- Optional JavaScript -->
+</body>
+
+</html>
