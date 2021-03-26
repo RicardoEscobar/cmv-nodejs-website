@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<!--Barra de navegacion-->
+<%- include('../includes/navigation.ejs') %>
+<!--Barra de navegacion-->
+
+<!--contacto-->
+<main>
+
+    <!--Botones flotantes: whatsapp y facebook-->
+    <%- include('../includes/chat-buttons.ejs') %>
+    <!--Botones flotantes: whatsapp y facebook-->
+
+    <div class="container-lg p-0 mt-0 mt-lg-5 ">
+        <h1 class="mt-5rem"></h1>
+        <h1 class="font-weight-light text-center azul2 mt-4 mb-0">
+            <strong><%= category %></strong>
+        </h1>
+        <%- (typeof subtitle !== "undefined") && subtitle !== '' ? `<h3 class="text-center naranja">${subtitle}</h3>` : '' %>
+        <h1 class="text-center"><%= emoji %></h1>
+        <hr class="mt-2 mb-5">
+    </div>
+
+    <!--fotos-->
+    <!--Foto grid-->
+    <div class="container-fluid foto-grid mt-5rem mb-4">
+        <% for(i = 0; i < pictures.length; i++) { %>
+            <%- include('../includes/picture.ejs') %>
+        <%}%>
+    </div>
+    <!--Foto grid-->
+    <!--fotos-->
+
+    <!--footer-->
+    <%- include('../includes/footer.ejs') %>
+        <!--footer-->
+
+</main>
+
+
+<!-- Optional JavaScript -->
+<%- include('../includes/optional-javascript.ejs') %>
+<!-- Optional JavaScript -->
+</body>
+
+</html>

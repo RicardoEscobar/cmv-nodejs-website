@@ -1,0 +1,18 @@
+<div class="foto<%- pictures[i].isAlta ? ' foto-alta' : '' %><%- pictures[i].isAncha ? ' foto-ancha' : '' %>"
+  style="background-image:url('<%- pictures[i].pictureURL %>')">
+  <a href="#" class="d-none d-sm-block mb-4 divLink" data-bs-toggle="modal" data-bs-target="#foto<%- pictures[i].id %>"></a>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="foto<%- pictures[i].id %>" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mx-auto">
+        <img class="img-fluid" src="<%- pictures[i].pictureURL %>">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->

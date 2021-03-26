@@ -1,0 +1,55 @@
+<form id="formulario" action="<%= path === '/contacto' ? '/contacto' : '/inscripciones' %>" method="post">  
+  <%- (path === '/inscripciones' || path === '/contacto') && isEmailSuccessful ? include('notification.ejs') : '' %>
+  <h5 class="naranja">Datos de Contacto</h5>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationNombre">Tu Nombre completo</label>
+      <input type="text" class="form-control is-valid" id="validationNombre" name="nombre"
+        placeholder="Ej. Xavier Cortés Otto">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationTelefono">Teléfono</label>
+      <input type="tel" class="form-control is-valid" id="validationTelefono" name="telefono"
+        placeholder="Ej.229 931798542 (10 digitos)">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationEmail">Tu correo electrónico</label>
+      <input type="email" class="form-control is-valid" id="validationEmail" name="email"
+        placeholder="correo@dominio.com" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <legend class="col-form-label pt-0">Nivel Educativo</legend>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="nivelEducativo" id="gridRadios1"
+          value="Comunidad Infantil (1-3 años)" checked
+          onchange="creaLigaEmail('informes@colegiomontessoriveracruz.com')">
+        <label id="label1" class="form-check-label" for="gridRadios1">
+          Comunidad Infantil (1-3 años)
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="nivelEducativo" id="gridRadios2"
+          value="Casa de los niños (3-6 años)" onchange="creaLigaEmail('informes@colegiomontessoriveracruz.com')">
+        <label id="label2" class="form-check-label" for="gridRadios2">
+          Casa de los niños (3-6 años)
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="nivelEducativo" id="gridRadios3"
+          value="Taller (6-12 años)" onchange="creaLigaEmail('informes@colegiomontessoriveracruz.com')">
+        <label id="label3" class="form-check-label" for="gridRadios3">
+          Taller (6-12 años)
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="validationComentario">Tu comentario</label>
+    <textarea class="form-control" id="validationComentario" rows="4" name="comentarios"
+      placeholder="Sus comentarios"></textarea>
+  </div>
+  <p class="azul2">* Deberás esperar una confirmación vía correo</p>
+  <button class="btn btn-primary mx-auto d-block" type="submit" value="send" id="enviar">Enviar</button>
+</form>

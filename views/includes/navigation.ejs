@@ -1,0 +1,77 @@
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="/"><img src="../images/icon.png" class="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/' ? 'active' : '' %>" href="/">
+              Inicio<%- path === '/' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/comunidad-infantil' ? 'active' : '' %>" href="/comunidad-infantil">
+              Comunidad infantil<%- path === '/comunidad-infantil' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/casa-ninios' ? 'active' : '' %>" href="/casa-ninios">
+              Casa de los niños<%- path === '/casa-ninios' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/taller' ? 'active' : '' %>" href="/taller">
+              Taller<%- path === '/taller' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/pilar' ? 'active' : '' %>" href="/pilar">
+              Pilar<%- path === '/pilar' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  <%- path === '/inscripciones' ? 'active' : '' %>" href="/inscripciones">
+              Inscripciones<%- path === '/inscripciones' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/metodo' ? 'active' : '' %>" href="/metodo">
+              Método Montessori<%- path === '/metodo' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle <%- path.includes('/galeria') ? 'active' : '' %>" href="#" id="dropdownGaleria" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Fotos y Videos<%- path.includes('/galeria') ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownGaleria">
+              <li><a class="dropdown-item <%- path === '/galeria' ? 'active' : '' %>" href="/galeria">Galería</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/instalaciones') ? 'active' : '' %>" href="/galeria/instalaciones">Instalaciones</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/comunidad-infantil') ? 'active' : '' %>" href="/galeria/comunidad-infantil">Comunidad Infantil (1-3 años)</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/casa-ninios') ? 'active' : '' %>" href="/galeria/casa-ninios">Casa de los niños (3-6 años)</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/taller') ? 'active' : '' %>" href="/galeria/taller">Taller (6 a 12 años)</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/musica') ? 'active' : '' %>" href="/galeria/musica">Música</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/yoga') ? 'active' : '' %>" href="/galeria/yoga">Yoga</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/activacion-fisica') ? 'active' : '' %>" href="/galeria/activacion-fisica">Activación Física</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/ambiente-externo') ? 'active' : '' %>" href="/galeria/ambiente-externo">Ambiente Externo</a></li>
+              <li><a class="dropdown-item <%- path.includes('/galeria/escuela-padres') ? 'active' : '' %>" href="/galeria/escuela-padres">Escuela de padres</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/preguntas' ? 'active' : '' %>" href="/preguntas">
+              Preguntas frecuentes<%- path === '/preguntas' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%- path === '/contacto' ? 'active' : '' %>" href="/contacto">
+              Contacto<%- path === '/contacto' ? '<span class="visually-hidden"> (current)</span>' : '' %>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>

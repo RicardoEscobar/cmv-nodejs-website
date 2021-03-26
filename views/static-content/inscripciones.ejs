@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es-419">
+
+<%- include('../includes/head.ejs') %>
+
+<body>
+    <!--Barra de navegacion-->
+    <%- include('../includes/navigation.ejs') %>
+    <!--Barra de navegacion-->
+
+    <main>
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <!--Botones flotantes: whatsapp y facebook-->
+        <%- include('../includes/chat-buttons.ejs') %>
+        <!--Botones flotantes: whatsapp y facebook-->
+
+        <!--banner-->
+        <div class="container-fluid p-0 position-relative text-center  mt-4-5rem">
+            <picture>
+                <source srcset="images/ambiente2000.jpg" media="(min-width: 1400px)">
+                <source srcset="images/ambiente1400.jpg" media="(min-width: 769px)">
+                <source srcset="images/ambiente800.jpg" media="(min-width: 577px)">
+                <img srcset="images/ambiente600.jpg" alt="responsive image" class="img-fluid"
+                    style="filter: brightness(50%)">
+            </picture>
+            <div class="caption-text">
+                <h2 class="naranja"><strong>Colegio Montessori de la Vera Cruz.</strong></h2>
+                <h1 class="text-light"><strong>Inscripciones.</strong></h1>
+                <h4 class="text-light">Ciclo Escolar</h4>
+            </div>
+        </div>
+        <!--banner-->
+
+
+        <div class="container py-3 ">
+            <h2 class="py-2 naranja text-center">Muchas gracias por considerar ser parte de nuestra Comunidad. </h2>
+            <div class="text-center">
+                <img src="images/colegioMontessoriLogo.png" style="height: 200px;">
+            </div>
+            <p class="pt-1">Para ofrecerle la atención adecuada le pedimos tomar en cuenta los siguientes puntos: </p>
+
+            <div>
+                <p class="py-1">&bull; Consulte el grado de acuerdo a la edad</p>
+
+                <div class="row mx-auto">
+                    <div class="col-lg-4 col-12 text-center bg-azul1">
+                        <div class="py-4">
+                            <a class="btn bg-naranja btn-lg text-light d-inline" href="/comunidad-infantil">Comunidad
+                                Infantil</a>
+                        </div>
+                        <h4 class="text-light">Edad: 1 año (que camine) a 3 años</h4>
+                        <h4 class="text-light"><strong> Horario: 8:30 - 13:00</strong></h4>
+                    </div>
+
+                    <div class="col-lg-4 col-12 text-center bg-azul2 ">
+                        <div class="py-4">
+                            <a class="btn bg-naranja btn-lg text-light d-inline" href="/casa-ninios">
+                                Casa de los niños</a>
+                        </div>
+                        <h4 class="text-light">Edad: 3 a 6 años</h4>
+                        <h4 class="text-light"><strong> Horario: 8:00 - 14:30</strong></h4>
+                    </div>
+
+                    <div class="col-lg-4 col-12 text-center bg-azul1 ">
+                        <div class="py-4">
+                            <a class="btn bg-naranja btn-lg text-light d-inline" href="/taller">
+                                Taller</a>
+                        </div>
+                        <h4 class="text-light">Edad: 6 a 12 años</h4>
+                        <h4 class="text-light"><strong> Horario: 8:30 - 14:30</strong></h4>
+                    </div>
+                </div>
+                <p class="pt-2 pb-1">&bull; Contáctenos vía telefónica al <%- include('../includes/telefono.ejs') %>,
+                    con la finalidad de brindarle información general del colegio,costos, disponibilidad deespacios e
+                    invitarlos a agendar una cita para conocer nuestras instalaciones.</p>
+                <p class="py-1">&bull; Contáctenos vía web, ponemos a su disposición un formulario para que ingrese sus
+                    datos y podamos resolver sus dudas.</p>
+
+                <!--contacto-->
+                <%- include('../includes/contact-form') %>
+                <!--contacto-->
+                
+                <p class="py-2">&bull; Después de conocer las instalaciones y resolver dudas específicas sobre el
+                    funcionamiento del colegio, concertaremos una "Entrevista de inicio" con el Depto. correspondiente y
+                    la Guía del nivel correspondiente.</p>
+            </div>
+        </div>
+
+        <!--footer-->
+        <%- include('../includes/footer.ejs') %>
+        <!--footer-->
+
+    </main>
+
+    <!-- Optional JavaScript -->
+    <%- include('../includes/optional-javascript.ejs') %>
+    <!-- Optional JavaScript -->
+</body>
+
+</html>
