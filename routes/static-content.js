@@ -15,7 +15,7 @@ router.get('/comunidad-infantil', staticContentController.getComunidadInfantil);
 router.get('/casa-ninios', staticContentController.getCasaNinios);
 
 /* GET comunicado */
-router.get('/comunicado', staticContentController.getComunicado);
+//router.get('/comunicado', staticContentController.getComunicado);
 
 /* GET contacto */
 router.get('/contacto', staticContentController.getContacto);
