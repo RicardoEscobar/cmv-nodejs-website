@@ -1,36 +1,36 @@
 [{
   "id": 0,
-  "pictureURL": "http://localhost:3000/images/pilar_maria_elizabeth_carrasco_ponce.jpg",
+  "pictureURL": "../images/pilar_maria_elizabeth_carrasco_ponce.jpg",
   "department": "Dirección",
   "name": "María Elizabeth Carrasco Ponce",
   "quote": "Mi mayor sueño siempre fue y sigue siendo impulsar a los niños con amor para crear adultos que transformen la sociedad."
 }, {
   "id": 1,
-  "pictureURL": "http://localhost:3000/images/pilar_valeria_escobar_carrasco.jpg",
+  "pictureURL": "../images/pilar_valeria_escobar_carrasco.jpg",
   "department": "Administración escolar",
   "name": "Valeria Escobar Carrasco",
   "quote": "Hago posible que el trabajo en equipo tenga mejores resultados."
 }, {
   "id": 2,
-  "pictureURL": "http://localhost:3000/images/pilar_maria_jose_freyle_varela.jpg",
+  "pictureURL": "../images/pilar_maria_jose_freyle_varela.jpg",
   "department": "Guía de casa de los niños",
   "name": "María José Freyle Varela",
   "quote": "Admiro la capacidad que tienen los niños de aprender cosas con gran rapidez."
 }, {
   "id": 3,
-  "pictureURL": "http://localhost:3000/images/pilar_ayerim_garcia_carrasco.jpg",
+  "pictureURL": "../images/pilar_ayerim_garcia_carrasco.jpg",
   "department": "Guía de comunidad infantil",
   "name": "Ayerim García Carrasco",
   "quote": "Mi principal motivo para trabajar con los niños es alimentar la curiosidad de los niños para formar personas analíticas."
 }, {
   "id": 4,
-  "pictureURL": "http://localhost:3000/images/pilar_maria_elena_gomez_caballero.jpg",
+  "pictureURL": "../images/pilar_maria_elena_gomez_caballero.jpg",
   "department": "Intendencia",
   "name": "María Elena Gómez Caballero",
   "quote": ""
 }, {
   "id": 5,
-  "pictureURL": "http://localhost:3000/images/pilar_ricardo_marquez_villafuerte.jpg",
+  "pictureURL": "../images/pilar_ricardo_marquez_villafuerte.jpg",
   "department": "Vigilancia",
   "name": "Ricardo Marquez Villafuerte",
   "quote": ""
