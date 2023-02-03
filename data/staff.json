@@ -110,5 +110,12 @@
     "department": "Asistente comunidad infantil",
     "name": "Sandra Montalvo Escobar",
     "quote": "Me enorgullece ser un miembro integral de la comunidad infantil, brindando apoyo y cariño a cada niño mientras les ayudo a alcanzar su máximo potencial y a desarrollarse como seres humanos emocional y socialmente saludables."
+  },
+  {
+    "id": 16,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Asistente de taller",
+    "name": "Jennifer Ariza",
+    "quote": "Me siento privilegiada de ser parte de los momentos de aprendizaje práctico de los niños, ayudándoles a descubrir y explorar sus intereses y habilidades a través de actividades divertidas y significativas en el taller."
   }
 ]
