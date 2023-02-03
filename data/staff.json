@@ -29,7 +29,7 @@
   },
   {
     "id": 4,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Adriana_Elizabeth_Cuautle_Guzman_2023.jpg",
     "department": "Guía taller 1",
     "name": "Adriana Elizabeth Cuautle Guzmán",
     "quote": "Enriquezco la vida de los niños fomentando su creatividad y exploración."
@@ -43,21 +43,21 @@
   },
   {
     "id": 6,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Brenda_Leticia_Cruz_Ayala_2023.jpg",
     "department": "Intendencia",
     "name": "Brenda Leticia Cruz Ayala",
     "quote": "Me esfuerzo por crear un ambiente seguro y acogedor en la escuela, garantizando la comodidad y bienestar de todos los estudiantes y profesores para que puedan alcanzar su máximo potencial."
   },
   {
     "id": 7,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Diana_Laura_Montalvo_Escobar_2023.jpg",
     "department": "Asistente de dirección",
     "name": "Diana Laura Montalvo Escobar",
     "quote": "Me enorgullezco de ser parte de un equipo liderado por la dirección y trabajo incansablemente para asegurar que la visión y objetivos de la escuela se cumplan de manera efectiva y eficiente."
   },
   {
     "id": 8,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Guadalupe_Danae_Castro_Casas_2023.jpg",
     "department": "Asistente casa de niños",
     "name": "Guadalupe Danae Castro Casas",
     "quote": "Me emociona ser un apoyo importante para las guías de casa de niños, ayudando a crear un entorno de aprendizaje positivo y acogedor para cada niño y viendo su crecimiento y desarrollo día a día."
@@ -71,7 +71,7 @@
   },
   {
     "id": 10,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Jerson_Palacios_Jimenez_2023.jpg",
     "department": "Maestro de inglés",
     "name": "Jerson Palacios Jiménez",
     "quote": "Me entusiasma enseñar inglés y abrir las puertas del mundo a los niños, brindándoles habilidades lingüísticas valiosas que les permitirán tener éxito en un futuro global y multicultural."
@@ -92,7 +92,7 @@
   },
   {
     "id": 13,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Ofelia_Irani_Escobar_Carrasco_2023.jpg",
     "department": "Guía taller 2",
     "name": "Ofelia Iraní Escobar Carrasco",
     "quote": "Me apasiona guiar a los niños en su aprendizaje práctico y hands-on, enseñándoles habilidades valiosas y habilidades para la vida mientras les brindo la oportunidad de descubrir y explorar sus intereses y pasiones."
@@ -106,14 +106,14 @@
   },
   {
     "id": 15,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Sandra_Montalvo_Escobar_2023.jpg",
     "department": "Asistente comunidad infantil",
     "name": "Sandra Montalvo Escobar",
     "quote": "Me enorgullece ser un miembro integral de la comunidad infantil, brindando apoyo y cariño a cada niño mientras les ayudo a alcanzar su máximo potencial y a desarrollarse como seres humanos emocional y socialmente saludables."
   },
   {
     "id": 16,
-    "pictureURL": "https://via.placeholder.com/250",
+    "pictureURL": "../images/pilar_Jennifer_2023.jpg",
     "department": "Asistente de taller",
     "name": "Jennifer Ariza",
     "quote": "Me siento privilegiada de ser parte de los momentos de aprendizaje práctico de los niños, ayudándoles a descubrir y explorar sus intereses y habilidades a través de actividades divertidas y significativas en el taller."
