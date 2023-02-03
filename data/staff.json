@@ -1,37 +1,121 @@
-[{
-  "id": 0,
-  "pictureURL": "../images/pilar_maria_elizabeth_carrasco_ponce.jpg",
-  "department": "Dirección",
-  "name": "María Elizabeth Carrasco Ponce",
-  "quote": "Mi mayor sueño siempre fue y sigue siendo impulsar a los niños con amor para crear adultos que transformen la sociedad."
-}, {
-  "id": 1,
-  "pictureURL": "../images/pilar_valeria_escobar_carrasco.jpg",
-  "department": "Administración escolar",
-  "name": "Valeria Escobar Carrasco",
-  "quote": "Hago posible que el trabajo en equipo tenga mejores resultados."
-}, {
-  "id": 2,
-  "pictureURL": "../images/pilar_maria_jose_freyle_varela.jpg",
-  "department": "Guía de casa de los niños",
-  "name": "María José Freyle Varela",
-  "quote": "Admiro la capacidad que tienen los niños de aprender cosas con gran rapidez."
-}, {
-  "id": 3,
-  "pictureURL": "../images/pilar_ayerim_garcia_carrasco.jpg",
-  "department": "Guía de comunidad infantil",
-  "name": "Ayerim García Carrasco",
-  "quote": "Mi principal motivo para trabajar con los niños es alimentar la curiosidad de los niños para formar personas analíticas."
-}, {
-  "id": 4,
-  "pictureURL": "../images/pilar_maria_elena_gomez_caballero.jpg",
-  "department": "Intendencia",
-  "name": "María Elena Gómez Caballero",
-  "quote": ""
-}, {
-  "id": 5,
-  "pictureURL": "../images/pilar_ricardo_marquez_villafuerte.jpg",
-  "department": "Vigilancia",
-  "name": "Ricardo Marquez Villafuerte",
-  "quote": ""
-}]
+[
+  {
+    "id": 0,
+    "pictureURL": "../images/pilar_maria_elizabeth_carrasco_ponce.jpg",
+    "department": "Directora",
+    "name": "María Elizabeth Carrasco Ponce",
+    "quote": "Mi mayor sueño siempre fue y sigue siendo impulsar a los niños con amor para crear adultos que transformen la sociedad."
+  },
+  {
+    "id": 1,
+    "pictureURL": "../images/pilar_valeria_escobar_carrasco.jpg",
+    "department": "Coordinación escolar",
+    "name": "Valeria Escobar Carrasco",
+    "quote": "Hago posible que el trabajo en equipo tenga mejores resultados."
+  },
+  {
+    "id": 2,
+    "pictureURL": "../images/pilar_maria_jose_freyle_varela.jpg",
+    "department": "Guía casa de niños",
+    "name": "María José Freyle Varela",
+    "quote": "Admiro la capacidad que tienen los niños de aprender cosas con gran rapidez."
+  },
+  {
+    "id": 3,
+    "pictureURL": "../images/pilar_ayerim_garcia_carrasco.jpg",
+    "department": "Guía de comunidad infantil",
+    "name": "Ayerim García Carrasco",
+    "quote": "Mi principal motivo para trabajar con los niños es alimentar la curiosidad de los niños para formar personas analíticas."
+  },
+  {
+    "id": 4,
+    "pictureURL": "../images/pilar_Adriana_Elizabeth_Cuautle_Guzman_2023.jpg",
+    "department": "Guía taller 1",
+    "name": "Adriana Elizabeth Cuautle Guzmán",
+    "quote": "Enriquezco la vida de los niños fomentando su creatividad y exploración."
+  },
+  {
+    "id": 5,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Maestro de música",
+    "name": "Alejandro Ricartez",
+    "quote": "Con mi pasión por la música, fomento la creatividad y el autodescubrimiento en cada niño, haciendo de cada clase una experiencia única e inolvidable."
+  },
+  {
+    "id": 6,
+    "pictureURL": "../images/pilar_Brenda_Leticia_Cruz_Ayala_2023.jpg",
+    "department": "Intendencia",
+    "name": "Brenda Leticia Cruz Ayala",
+    "quote": "Me esfuerzo por crear un ambiente seguro y acogedor en la escuela, garantizando la comodidad y bienestar de todos los estudiantes y profesores para que puedan alcanzar su máximo potencial."
+  },
+  {
+    "id": 7,
+    "pictureURL": "../images/pilar_Diana_Laura_Montalvo_Escobar_2023.jpg",
+    "department": "Asistente de dirección",
+    "name": "Diana Laura Montalvo Escobar",
+    "quote": "Me enorgullezco de ser parte de un equipo liderado por la dirección y trabajo incansablemente para asegurar que la visión y objetivos de la escuela se cumplan de manera efectiva y eficiente."
+  },
+  {
+    "id": 8,
+    "pictureURL": "../images/pilar_Guadalupe_Danae_Castro_Casas_2023.jpg",
+    "department": "Asistente casa de niños",
+    "name": "Guadalupe Danae Castro Casas",
+    "quote": "Me emociona ser un apoyo importante para las guías de casa de niños, ayudando a crear un entorno de aprendizaje positivo y acogedor para cada niño y viendo su crecimiento y desarrollo día a día."
+  },
+  {
+    "id": 9,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Maestro de danza",
+    "name": "Javier Gainza",
+    "quote": "Con mi amor por la danza, fomento la confianza y la autoexpresión en cada niño, permitiéndoles descubrir su verdadera pasión y potencial a través de la danza y la música."
+  },
+  {
+    "id": 10,
+    "pictureURL": "../images/pilar_Jerson_Palacios_Jimenez_2023.jpg",
+    "department": "Maestro de inglés",
+    "name": "Jerson Palacios Jiménez",
+    "quote": "Me entusiasma enseñar inglés y abrir las puertas del mundo a los niños, brindándoles habilidades lingüísticas valiosas que les permitirán tener éxito en un futuro global y multicultural."
+  },
+  {
+    "id": 11,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Maestro de educación física",
+    "name": "Josue Eduardo Huesca Rodríguez",
+    "quote": "Con mi pasión por la actividad física, fomento la salud y el bienestar de los niños, así como su confianza en sí mismos y su capacidad de trabajar en equipo, para que puedan alcanzar su máximo potencial."
+  },
+  {
+    "id": 12,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Maestro de pintura",
+    "name": "Magali Herrera",
+    "quote": "Me emociona ser parte de la exploración y el autodescubrimiento de los niños a través del arte y la pintura, donde pueden expresar su creatividad y emociones de manera única y significativa."
+  },
+  {
+    "id": 13,
+    "pictureURL": "../images/pilar_Ofelia_Irani_Escobar_Carrasco_2023.jpg",
+    "department": "Guía taller 2",
+    "name": "Ofelia Iraní Escobar Carrasco",
+    "quote": "Me apasiona guiar a los niños en su aprendizaje práctico y hands-on, enseñándoles habilidades valiosas y habilidades para la vida mientras les brindo la oportunidad de descubrir y explorar sus intereses y pasiones."
+  },
+  {
+    "id": 14,
+    "pictureURL": "https://via.placeholder.com/250",
+    "department": "Vigilancia",
+    "name": "Roberto Celis Gónzalez",
+    "quote": "Me esfuerzo por mantener un ambiente seguro y tranquilo en la escuela, protegiendo a los estudiantes y garantizando que puedan centrarse en su aprendizaje sin distracciones y preocupaciones de seguridad."
+  },
+  {
+    "id": 15,
+    "pictureURL": "../images/pilar_Sandra_Montalvo_Escobar_2023.jpg",
+    "department": "Asistente comunidad infantil",
+    "name": "Sandra Montalvo Escobar",
+    "quote": "Me enorgullece ser un miembro integral de la comunidad infantil, brindando apoyo y cariño a cada niño mientras les ayudo a alcanzar su máximo potencial y a desarrollarse como seres humanos emocional y socialmente saludables."
+  },
+  {
+    "id": 16,
+    "pictureURL": "../images/pilar_Jennifer_2023.jpg",
+    "department": "Asistente de taller",
+    "name": "Jennifer Ariza",
+    "quote": "Me siento privilegiada de ser parte de los momentos de aprendizaje práctico de los niños, ayudándoles a descubrir y explorar sus intereses y habilidades a través de actividades divertidas y significativas en el taller."
+  }
+]
