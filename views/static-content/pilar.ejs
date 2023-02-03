@@ -3,72 +3,81 @@
 
 <%- include('../includes/head.ejs') %>
 
-<body>
-    <!--Barra de navegacion-->
-<%- include('../includes/navigation.ejs') %>
-    <!--Barra de navegacion-->
+    <body>
+        <!--Barra de navegacion-->
+        <%- include('../includes/navigation.ejs') %>
+            <!--Barra de navegacion-->
 
-    <main>
+            <main>
 
-        <!-- CONTENIDO PRINCIPAL -->
+                <!-- CONTENIDO PRINCIPAL -->
 
-        <!--Botones flotantes: whatsapp y facebook-->
-<%- include('../includes/chat-buttons.ejs') %>
-        <!--Botones flotantes: whatsapp y facebook-->
+                <!--Botones flotantes: whatsapp y facebook-->
+                <%- include('../includes/chat-buttons.ejs') %>
+                    <!--Botones flotantes: whatsapp y facebook-->
 
-        <!--banner-->
-        <div class="container-fluid p-0 position-relative text-center mt-4-5rem">
-            <picture>
-                <source srcset="images/pilar_banner2000.jpg" media="(min-width: 1400px)">
-                <source srcset="images/pilar_banner1400.jpg" media="(min-width: 769px)">
-                <source srcset="images/pilar_banner800.jpg" media="(min-width: 577px)">
-                <img srcset="images/pilar_banner600.jpg" alt="responsive image" class="img-fluid"
-                    style="filter: brightness(70%)">
-            </picture>
-            <div class="caption-text" style="top: 30%">
-                <h1 class="naranja"><strong>Nuestro pilar</strong></h1>
-                <p class="d-none d-sm-block text-light text-center ">Nuestro equipo es supervisado por organismos
-                    reconocidos a nivel internacional; es por ello que adquirimos el compromiso de contar
-                    con Guías que tengan la certificación <em>Association Montessori Internationale</em> (AMI).</p>
-            </div>
-            <div class="text-center position-absolute" style="left: 50%; transform: translate(-50%, -50%);">
-                <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
-                    ya!</a>
-            </div>
-        </div>
-        <!--banner-->
+                    <!--banner-->
+                    <div class="container-fluid p-0 position-relative text-center mt-4-5rem">
+                        <picture>
+                            <source srcset="images/pilar_banner2000_2023.jpg" media="(min-width: 1400px)">
+                            <source srcset="images/pilar_banner1400_2023.jpg" media="(min-width: 769px)">
+                            <source srcset="images/pilar_banner800_2023.jpg" media="(min-width: 577px)">
+                            <img srcset="images/pilar_banner600_2023.jpg" alt="responsive image" class="img-fluid"
+                                style="filter: brightness(70%)">
+                        </picture>
+                        <div class="caption-text" style="top: 30%">
+                            <h1 class="naranja"><strong>Nuestro pilar</strong></h1>
+                            <p class="d-none d-sm-block text-light text-center ">Nuestro equipo es supervisado por
+                                organismos
+                                reconocidos a nivel internacional; es por ello que adquirimos el compromiso de contar
+                                con Guías que tengan la certificación <em>Association Montessori Internationale</em>
+                                (AMI).</p>
+                        </div>
+                        <div class="text-center position-absolute" style="left: 50%; transform: translate(-50%, -50%);">
+                            <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
+                                ya!</a>
+                        </div>
+                    </div>
+                    <!--banner-->
 
-        <!--dynamic staff render-->
-        <% for (i = 0; i < staff.length; i++) { %>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4 m-auto">
-                    <img class="img-fluid m-auto d-block shadow avatar"
-                        src="<%= staff[i].pictureURL %>" alt="...">
-                </div>
-                <div class="col-md-8 p-5">
-                    <h3 class="naranja"><%= staff[i].department %></h3>
-                    <h4 class="azul2"><%= staff[i].name %></h4>
-                    <p><%= staff[i].quote %></p>
-                </div>
-            </div>
-        </div>
-        <% } %>
-        <!--dynamic staff render-->
+                    <!--dynamic staff render-->
+                    <% for (i=0; i < staff.length; i++) { %>
+                        <div class="container mt-5">
+                            <div class="row">
+                                <div class="col-md-4 m-auto">
+                                    <img class="img-fluid m-auto d-block shadow avatar" src="<%= staff[i].pictureURL %>"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 p-5">
+                                    <h3 class="naranja">
+                                        <%= staff[i].department %>
+                                    </h3>
+                                    <h4 class="azul2">
+                                        <%= staff[i].name %>
+                                    </h4>
+                                    <p>
+                                        <%= staff[i].quote %>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                            <!--dynamic staff render-->
 
-        <div class="text-center my-5">
-            <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete ya!</a>
-        </div>
+                            <div class="text-center my-5">
+                                <a class="btn bg-naranja btn-lg text-light d-inline-block"
+                                    href="/inscripciones">¡Inscríbete ya!</a>
+                            </div>
 
-        <!--footer-->
-<%- include('../includes/footer.ejs') %>
-        <!--footer-->
+                            <!--footer-->
+                            <%- include('../includes/footer.ejs') %>
+                                <!--footer-->
 
-    </main>
+            </main>
 
-  <!-- Optional JavaScript -->
-<%- include('../includes/optional-javascript.ejs') %>
-  <!-- Optional JavaScript -->
-</body>
+            <!-- Optional JavaScript -->
+            <%- include('../includes/optional-javascript.ejs') %>
+                <!-- Optional JavaScript -->
+    </body>
 
 </html>
