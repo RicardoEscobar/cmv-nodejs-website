@@ -1,5 +1,18 @@
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-  </script>
-  <%- (path === '/inscripciones' || path === '/contacto') && isEmailSuccessful ? '<script src="javascripts/notification.js"></script>' : '' %>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+</script>
+<%- (path==='/inscripciones' || path==='/contacto' ) && isEmailSuccessful
+  ? '<script src="javascripts/notification.js"></script>' : '' %>
+<% if (path==='/pilar' ) { %>
+<script src="javascripts/initialCapitalization.js"></script>
+<script>
+  function capitalizeHeadings() {
+    let h3Tags = document.getElementsByTagName("h3");
+    for (let i = 0; i < h3Tags.length; i++) {
+      h3Tags[i].textContent = initialCapitalization(h3Tags[i].textContent, ["de"]);
+    }
+  }
+  window.onload = capitalizeHeadings;
+</script>
+<% } else { %>
+<% } %>
