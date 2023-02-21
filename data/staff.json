@@ -82,5 +82,12 @@
     "job_title": "Intendencia",
     "name": "Brenda Leticia Cruz Ayala",
     "quote": "Mi trabajo es mantener un ambiente de aprendizaje ordenado y eficiente, brindando un servicio amable y eficaz a todos los miembros de la comunidad escolar."
+  },
+  {
+    "id": 12,
+    "pictureURL": "../images/pilar_Andrea_yedith_Hernandez_Roman_2023_02_20.jpg",
+    "job_title": "Intendencia",
+    "name": "Andrea yedith Hernández Román",
+    "quote": "La limpieza y el orden son las claves para crear un ambiente de trabajo productivo y seguro."
   }
 ]
