@@ -3,239 +3,224 @@
 
 <%- include('../includes/head.ejs') %>
 
-<body>
-  <!--barra de navegacion-->
-<%- include('../includes/navigation.ejs') %>
-  <!--barra de navegacion-->
+  <body>
+    <!--barra de navegacion-->
+    <%- include('../includes/navigation.ejs') %>
+      <!--barra de navegacion-->
 
-  <main>
+      <main>
 
-    <!--Botones flotantes: whatsapp y facebook-->
-<%- include('../includes/chat-buttons.ejs') %>
-    <!--Botones flotantes: whatsapp y facebook-->
+        <!--Botones flotantes: whatsapp y facebook-->
+        <%- include('../includes/chat-buttons.ejs') %>
+          <!--Botones flotantes: whatsapp y facebook-->
 
-    <!--carousel-->
-<%- include('../includes/carousel.ejs') %>
-    <!--carousel-->
+          <!--carousel-->
+          <%- include('../includes/carousel.ejs') %>
+            <!--carousel-->
 
-    <!--Video-->
-    <div class="container-lg p-0 mt-0 mt-lg-5">
-      <div class="iframe-container">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/C2QAmI-_Vj0?rel=0" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <!--Video-->
-
-    <div class="text-center mt-5">
-      <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete ya!</a>
-    </div>
-
-    <hr>
-
-    <!--cards-->
-    <div class="container my-5 ">
-
-      <div class="row">
-
-        <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
-          <img src="images/card01.jpg" style="max-width: 200px;" class="card-img-top rounded-circle mx-auto shadow"
-            alt="...">
-          <div class="card-body">
-            <h4 class="card-title text-center naranja">Comunidad infantil.</h4>
-            <h6 class="card-title text-center naranja">(1 a 3 años)</h6>
-            <p class="card-text">Es un espacio intermedio entre la casa y la escuela, es un
-              ambiente preparado para infantes de 1 a 3 años. El área de trabajo ha sido preparada con inteligencia,
-              estructura, orden y sensibilidad, para guiar al niño.</p>
-          </div>
-
-          <!-- Button trigger modal -->
-          <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/comunidad-infantil">Leer más</a>
-
-          <!-- Modal -->
-          <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modal1">Comunidad infantil (1 a 3 años).</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>                
+            <!--Video-->
+            <div class="container-lg p-0 mt-0 mt-lg-5">
+              <div class="iframe-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/C2QAmI-_Vj0?rel=0" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
             </div>
-          </div><!-- Modal -->
-        </div>
-
-        <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
-          <img src="images/card02.jpg" style="max-width: 200px;" class="card-img-top rounded-circle mx-auto shadow"
-            alt="...">
-          <div class="card-body">
-            <h4 class="card-title text-center naranja">Casa de los niños.</h4>
-            <h6 class="card-title text-center naranja">(3 a 6 años)</h6>
-            <p class="card-text">Este ambiente constituye un todo que se forma a base de la vida del niño. Su
-              característica es el orden presente en él. Al niño de 3 a 6 años se le ofrece la oportunidad natural para
-              realizar actividades de la vida diaria.</p>
-          </div>
-          <!-- Button trigger modal -->
-          <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/casa-ninios">Leer más</a>
-
-          <!-- Modal -->
-          <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modal2">Casa de los niños (3 a 6 años).</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>                
-              </div>
-            </div>
-          </div><!-- Modal -->
-        </div>
-
-        <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
-          <img src="images/taller-card.jpg" style="max-width: 200px;" class="card-img-top rounded-circle mx-auto  shadow"
-            alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center naranja">Taller.</h5>
-            <h6 class="card-title text-center naranja">(6 a 12 años)</h6>
-            <p class="card-text">Primaria Montessori es un ambiente en donde tu hijo desarrollará habilidades de
-              pensamiento complejas, gracias al trabajo con <strong>materiales Montessori</strong>, que le ayudarán a razonar de una
-              manera concreta, lo que le permitirá después tener un pensamiento abstracto avanzado.</p>
-          </div>
-          <!-- Button trigger modal -->
-          <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/taller">Leer más</a>
-
-
-          <!-- Modal -->
-          <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modal3">Colegio Montessori.</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>                
-              </div>
-            </div>
-          </div><!-- Modal -->
-        </div>
-      </div>
-    </div>
-    <!--cards-->
-    <hr>
-    <!-- TODO -->
-
-    <!--contenido: foto lado izquiero y texto lado derecho-->
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-4 m-auto">
-          <img class="img-fluid rounded m-auto d-block" src="images/index_regando_plantas.jpg" alt="...">
-        </div>
-        <div class="col-md-8 p-5">
-          <h1 class="text-center naranja">🌱 ¡Enséñale a regar las plantas!</h1>
-          <p>Cuando en metodología Montessori enseñamos sobre el cuidado de las plantas a los niños, estamos también
-            enseñando el respeto y el amor por la naturaleza, la responsabilidad del cuidado de un ser vivo y también,
-            podemos enseñar conocimientos más concretos como las partes de cada planta como el tallo, las hojas, la
-            flor, etc.</p>
-
-          <div class="text-center mt-5">
-            <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
-              ya!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--contenido: foto lado derecho y texto lado izquierdo-->
-    <div class="bg-azul1 py-1">
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-md-8 p-5 order-2 order-md-1 text-light">
-            <h1 class="text-center">Amor 💚 por los animales 🐢, es amor por la vida.</h1>
-            <p>Es imperativo educar a los niños en la empatía, la bondad y la amabilidad, y el cuidado de un animal
-              puede ayudar a que el niño crezca en el amor y respeto a los animales, a la naturaleza y por supuesto a
-              las personas. La capacidad de hacerse cargo, de ser una persona responsable, capaz de recibir y dar amor
-              son valores cuya práctica beneficia a todos los seres vivos.</p>
-          </div>
-          <div class="col-md-4 m-auto order-1 order-md-2">
-            <img class="img-fluid rounded m-auto d-block" src="images/index_amor_animales.jpg" alt="...">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Aprendizaje de la música-->
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-4 m-auto">
-          <img class="img-fluid rounded m-auto d-block" src="images/index_musica.jpg" alt="...">
-        </div>
-        <div class="col-md-8 p-5">
-          <h1 class="text-center naranja">🎻 Aprendizaje de la música.</h1>
-          <p>El efecto positivo del aprendizaje de la música sobre el equilibrio psicofísico de los niños desde la
-            primera infancia, ha sido probado a través de diversos estudios.</p>
-          <p>María Montessori subraya la importancia de la música, "que logra abrir las puertas del corazón y a sostener
-            el espíritu".</p>
-          <p>Contamos con clases de música basadas en el método Suzuki.</p>
-
-          ¡Ven a conocernos!</p>
-
-          <blockquote class="blockquote text-center">
-            <p class="mb-0">“Sin la educación musical adecuada, tendremos un pueblo de sordos a quienes les es negada la
-              posibilidad del regocijo
-              musical”</p>
-            <footer class="blockquote-footer">Maria Montessori</footer>
-          </blockquote>
-
-        </div>
-      </div>
-    </div>
-    <!--Aprendizaje de la música-->
-
-    <!--contenido: foto lado derecho y texto lado izquierdo-->
-    <div class="bg-azul1 py-1">
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-md-8 p-5 order-2 order-md-1 text-light">
-            <h1 class="text-center">🧘‍♀️ Yoga.</h1>
-            <p>En nuestro colegio hasta los más pequeños disfrutan de las clases de yoga y sus beneficios.</p>
-            <p>La palabra “yoga” significa “unión”, y esta unión se refiere al cuerpo, mente y espíritu. En su libro La
-              mente absorbente, Montessori nos dice: “… el movimiento tiene una gran importancia en el desarrollo mental
-              en sí, siempre que la acción que ocurre esté relacionada con la actividad mental por lo tanto, el
-              crecimiento mental y espiritual se nutren de este ... ” </p>
-            <p>Para los estudiantes de cualquier edad, yoga revela un camino a nuestro ser más íntimo. Al mismo tiempo,
-              nos ayuda a crear nuestro propio lugar especial en el mundo que nos rodea. Yoga, al igual que la educación
-              Montessori, es un proceso de descubrimiento.</p>
-            <p>Contamos con clases de yoga
-              ¡Ven a conocernos!</p>
+            <!--Video-->
 
             <div class="text-center mt-5">
-              <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
-                ya!</a>
+              <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete ya!</a>
             </div>
 
-          </div>
-          <div class="col-md-4 m-auto order-1 order-md-2">
-            <img class="img-fluid rounded m-auto d-block" src="images/index_yoga.jpg" alt="...">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- TODO -->
+            <hr>
 
-    <!--footer-->
-<%- include('../includes/footer.ejs') %>
-    <!--footer-->
+            <!--cards-->
+            <div class="container my-5 ">
 
-  </main>
+              <div class="row">
 
-  <!-- Optional JavaScript -->
-<%- include('../includes/optional-javascript.ejs') %>
-  <!-- Optional JavaScript -->
-</body>
+                <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
+                  <img src="images/card01.jpg" style="max-width: 200px;"
+                    class="card-img-top rounded-circle mx-auto shadow" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title text-center naranja">Comunidad infantil.</h4>
+                    <h6 class="card-title text-center naranja">(1 a 3 años)</h6>
+                    <p class="card-text">Es un espacio intermedio entre la casa y la escuela, es un
+                      ambiente preparado para infantes de 1 a 3 años. El área de trabajo ha sido preparada con
+                      inteligencia,
+                      estructura, orden y sensibilidad, para guiar al niño.</p>
+                  </div>
+
+                  <!-- Button trigger modal -->
+                  <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/comunidad-infantil">Leer más</a>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modal1">Comunidad infantil (1 a 3 años).</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- Modal -->
+                </div>
+
+                <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
+                  <img src="images/card02.jpg" style="max-width: 200px;"
+                    class="card-img-top rounded-circle mx-auto shadow" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title text-center naranja">Casa de los niños.</h4>
+                    <h6 class="card-title text-center naranja">(3 a 6 años)</h6>
+                    <p class="card-text">Este ambiente constituye un todo que se forma a base de la vida del niño. Su
+                      característica es el orden presente en él. Al niño de 3 a 6 años se le ofrece la oportunidad
+                      natural para
+                      realizar actividades de la vida diaria.</p>
+                  </div>
+                  <!-- Button trigger modal -->
+                  <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/casa-ninios">Leer más</a>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modal2">Casa de los niños (3 a 6 años).</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- Modal -->
+                </div>
+
+                <div class="card col-md-6 col-lg-4 border-0 mx-auto" style="width: 18rem;">
+                  <img src="images/taller-card.jpg" style="max-width: 200px;"
+                    class="card-img-top rounded-circle mx-auto  shadow" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center naranja">Taller.</h5>
+                    <h6 class="card-title text-center naranja">(6 a 12 años)</h6>
+                    <p class="card-text">Primaria Montessori es un ambiente en donde tu hijo desarrollará habilidades de
+                      pensamiento complejas, gracias al trabajo con <strong>materiales Montessori</strong>, que le
+                      ayudarán a razonar de una
+                      manera concreta, lo que le permitirá después tener un pensamiento abstracto avanzado.</p>
+                  </div>
+                  <!-- Button trigger modal -->
+                  <a class="btn btn-primary d-block mx-auto w-50 mb-4 mb-lg-0" href="/taller">Leer más</a>
+
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modal3">Colegio Montessori.</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- Modal -->
+                </div>
+              </div>
+            </div>
+            <!--cards-->
+            <hr>
+            <!-- TODO -->
+
+            <!--contenido: foto lado izquiero y texto lado derecho-->
+            <div class="container my-5">
+              <div class="row">
+                <div class="col-md-4 m-auto">
+                  <img class="img-fluid rounded m-auto d-block" src="images/index_regando_plantas.jpg" alt="...">
+                </div>
+                <div class="col-md-8 p-5">
+                  <h1 class="text-center naranja">🌱 ¡Enséñale a regar las plantas!</h1>
+                  <p>Cuando en metodología Montessori enseñamos sobre el cuidado de las plantas a los niños, estamos
+                    también
+                    enseñando el respeto y el amor por la naturaleza, la responsabilidad del cuidado de un ser vivo y
+                    también,
+                    podemos enseñar conocimientos más concretos como las partes de cada planta como el tallo, las hojas,
+                    la
+                    flor, etc.</p>
+
+                  <div class="text-center mt-5">
+                    <a class="btn bg-naranja btn-lg text-light d-inline-block" href="/inscripciones">¡Inscríbete
+                      ya!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--contenido: foto lado derecho y texto lado izquierdo-->
+            <div class="bg-azul1 py-1">
+              <div class="container my-5">
+                <div class="row">
+                  <div class="col-md-8 p-5 order-2 order-md-1 text-light">
+                    <h1 class="text-center">Amor 💚 por los animales 🐢, es amor por la vida.</h1>
+                    <p>Es imperativo educar a los niños en la empatía, la bondad y la amabilidad, y el cuidado de un
+                      animal
+                      puede ayudar a que el niño crezca en el amor y respeto a los animales, a la naturaleza y por
+                      supuesto a
+                      las personas. La capacidad de hacerse cargo, de ser una persona responsable, capaz de recibir y
+                      dar amor
+                      son valores cuya práctica beneficia a todos los seres vivos.</p>
+                  </div>
+                  <div class="col-md-4 m-auto order-1 order-md-2">
+                    <img class="img-fluid rounded m-auto d-block" src="images/index_amor_animales.jpg" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Aprendizaje de la música-->
+            <div class="container my-5">
+              <div class="row">
+                <div class="col-md-4 m-auto">
+                  <img class="img-fluid rounded m-auto d-block" src="images/index_musica.jpg" alt="...">
+                </div>
+                <div class="col-md-8 p-5">
+                  <h1 class="text-center naranja">🎻 Aprendizaje de la música.</h1>
+                  <p>El efecto positivo del aprendizaje de la música sobre el equilibrio psicofísico de los niños desde
+                    la
+                    primera infancia, ha sido probado a través de diversos estudios.</p>
+                  <p>María Montessori subraya la importancia de la música, "que logra abrir las puertas del corazón y a
+                    sostener
+                    el espíritu".</p>
+                  <p>Contamos con clases de música basadas en el método Suzuki.</p>
+
+                  ¡Ven a conocernos!</p>
+
+                  <blockquote class="blockquote text-center">
+                    <p class="mb-0">“Sin la educación musical adecuada, tendremos un pueblo de sordos a quienes les es
+                      negada la
+                      posibilidad del regocijo
+                      musical”</p>
+                    <footer class="blockquote-footer">Maria Montessori</footer>
+                  </blockquote>
+
+                </div>
+              </div>
+            </div>
+            <!--Aprendizaje de la música-->
+
+            <!--footer-->
+            <%- include('../includes/footer.ejs') %>
+              <!--footer-->
+
+      </main>
+
+      <!-- Optional JavaScript -->
+      <%- include('../includes/optional-javascript.ejs') %>
+        <!-- Optional JavaScript -->
+  </body>
 
 </html>
