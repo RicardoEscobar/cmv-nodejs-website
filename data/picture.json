@@ -196,20 +196,6 @@
     "path": "/galeria/casa-ninios"
   },
   {
-    "id": "29",
-    "pictureURL": "../images/casa10.jpg",
-    "isAlta": true,
-    "isAncha": true,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "31",
-    "pictureURL": "../images/casa12.jpg",
-    "isAlta": true,
-    "isAncha": false,
-    "path": "/galeria/casa-ninios"
-  },
-  {
     "id": "32",
     "pictureURL": "../images/casa13.jpg",
     "isAlta": false,
@@ -269,13 +255,6 @@
     "id": "40",
     "pictureURL": "../images/casa21.jpg",
     "isAlta": true,
-    "isAncha": false,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "41",
-    "pictureURL": "../images/casa22.jpg",
-    "isAlta": false,
     "isAncha": false,
     "path": "/galeria/casa-ninios"
   },
@@ -364,43 +343,8 @@
     "path": "/galeria/casa-ninios"
   },
   {
-    "id": "54",
-    "pictureURL": "../images/casa35.jpg",
-    "isAlta": false,
-    "isAncha": false,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "55",
-    "pictureURL": "../images/casa36.jpg",
-    "isAlta": true,
-    "isAncha": false,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "56",
-    "pictureURL": "../images/casa37.jpg",
-    "isAlta": true,
-    "isAncha": true,
-    "path": "/galeria/casa-ninios"
-  },
-  {
     "id": "57",
     "pictureURL": "../images/casa38.jpg",
-    "isAlta": false,
-    "isAncha": true,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "58",
-    "pictureURL": "../images/casa39.jpg",
-    "isAlta": true,
-    "isAncha": true,
-    "path": "/galeria/casa-ninios"
-  },
-  {
-    "id": "59",
-    "pictureURL": "../images/casa40.jpg",
     "isAlta": false,
     "isAncha": true,
     "path": "/galeria/casa-ninios"
