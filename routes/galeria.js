@@ -17,9 +17,6 @@ router.get('/taller', galeriaController.getTaller);
 /* GET musica */
 router.get('/musica', galeriaController.getMusica);
 
-/* GET yoga */
-router.get('/yoga', galeriaController.getYoga);
-
 /* GET activacion-fisica */
 router.get('/activacion-fisica', galeriaController.getActivacionFisica);
 

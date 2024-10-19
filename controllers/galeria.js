@@ -118,29 +118,6 @@ exports.getMusica = (req, res, next) => {
   });
 }
 
-exports.getYoga = (req, res, next) => {
-  Picture.fetchAll(allPictures => {
-    
-    // filter out the pictures that don't belong to this specific gallery
-    pictures = allPictures.filter(obj => {
-      if ('path' in obj && typeof(obj.path) === 'string' && obj.path === '/galeria/yoga') {
-        return true;
-      } else {
-        return false;
-      }
-    });
-
-    res.render('galeria/galeria', {
-      title: 'Colegio Montessori de la Vera Cruz',
-      currentYear: new Date().getFullYear(),
-      path: '/galeria/yoga',
-    category: 'Yoga',
-    emoji: '🧘‍♀️',
-      pictures: pictures
-    });
-  });
-}
-
 exports.getActivacionFisica = (req, res, next) => {
   Picture.fetchAll(allPictures => {
     
