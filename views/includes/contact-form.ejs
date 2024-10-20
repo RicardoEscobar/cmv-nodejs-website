@@ -46,15 +46,22 @@
   function updateEmailSubject() {
     const form = document.getElementById('formulario');
     const checkboxes = document.querySelectorAll('input[name="nivelEducativo"]:checked');
+    const nombre = document.getElementById('validationNombre').value;
+    const telefono = document.getElementById('validationTelefono').value;
+    const email = document.getElementById('validationEmail').value;
+
     let subject = 'Consulta sobre ';
+    let body = `Nombre: ${nombre}\nTeléfono: ${telefono}\nCorreo Electrónico: ${email}\n\nNiveles Educativos: `;
 
     checkboxes.forEach((checkbox, index) => {
       subject += checkbox.value;
+      body += checkbox.value;
       if (index < checkboxes.length - 1) {
         subject += ', ';
+        body += ', ';
       }
     });
 
-    form.action = `mailto:colegiomontessoriveracruz@gmail.com?subject=${encodeURIComponent(subject)}`;
+    form.action = `mailto:colegiomontessoriveracruz@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
 </script>
